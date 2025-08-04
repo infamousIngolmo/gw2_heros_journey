@@ -1,10 +1,3 @@
-<!-- 
-	Welcome to Teh's Example Pack! 
-	Feel free to modify this file however you want to customize it for your own pack 
-	Comments can be made by enclosing them in these symbols, use them to keep your XML organized! 
-	Whitespace doesn't matter in XML, and can also be used to increase readability for your editing purposes 
--->
-
 <!-- Everything for your pack should be contained inside of this overlay data element -->
 <OverlayData>
 
@@ -26,29 +19,55 @@
      |               | The 'displayName' attribute is what will be shown to the user when looking through categories
 	 |               |            | 
      V               V            V -->
-	<MarkerCategory name="" displayName="">
-	
-		<!-- This is an example of a sub-category -->
-		<MarkerCategory name="" displayName="">
+	<MarkerCategory name="hj" displayName="Hero's Journey">
+
+		<MarkerCategory name="hu" displayName="Human">
 		
-			<!-- This is an example of an actual marker
-			      |    Markers have an additional 'iconFile' attribute, which is the path to what image will be used for that marker
-			      |                                  |               Markers are closed with a '/' because they do not contain other markers
-			      |                                  |                              |   
-			      V                                  V                              V   -->
-			<MarkerCategory name="" displayName="" iconFile="Data/YOUR/FILE/PATH.png"/>
+			<!-- This is an example of a sub-category -->
+			<MarkerCategory name="qd" displayName="Queensdale">
+			
+				<!-- This is an example of an actual marker
+					|    Markers have an additional 'iconFile' attribute, which is the path to what image will be used for that marker
+					|                                  |               Markers are closed with a '/' because they do not contain other markers
+					|                                  |                              |   
+					V                                  V                              V   -->
+				<MarkerCategory name="qd10" displayName="Welcome Hero" iconFile="Data/HerosJourney/Markers/ExampleMarker.png"/>
+				<MarkerCategory name="qd20" displayName="Diah-lema" iconFile="Data/HerosJourney/Markers/ExampleMarker.png"/>
+				<MarkerCategory name="qd30" displayName="Dam Bandits" iconFile="Data/HerosJourney/Markers/ExampleMarker.png"/>
+				<MarkerCategory name="qd40" displayName="Rotten Core" iconFile="Data/HerosJourney/Markers/ExampleMarker.png"/>
+				<MarkerCategory name="qd50" displayName="Two in the bush" iconFile="Data/HerosJourney/Markers/ExampleMarker.png"/>
+				<MarkerCategory name="qd60" displayName="Dispicable Business" iconFile="Data/HerosJourney/Markers/ExampleMarker.png"/>
+				<MarkerCategory name="qd70" displayName="To Shaemoor" iconFile="Data/HerosJourney/Markers/ExampleMarker.png"/>
+				<MarkerCategory name="qd80" displayName="Pushing Back" iconFile="Data/HerosJourney/Markers/ExampleMarker.png"/>
+				<MarkerCategory name="qd90" displayName="Lost Trade" iconFile="Data/HerosJourney/Markers/ExampleMarker.png"/>
+				<MarkerCategory name="qd100" displayName="Arn't you Harpy" iconFile="Data/HerosJourney/Markers/ExampleMarker.png"/>
+				<MarkerCategory name="qd110" displayName="Time for a trade" iconFile="Data/HerosJourney/Markers/ExampleMarker.png"/>
+				<MarkerCategory name="qd120" displayName="Trouble of the Heart" iconFile="Data/HerosJourney/Markers/ExampleMarker.png"/>
+				<MarkerCategory name="qd130" displayName="Something stinks in Queensdale" iconFile="Data/HerosJourney/Markers/ExampleMarker.png"/>
+				<MarkerCategory name="qd140" displayName="Not the beer!" iconFile="Data/HerosJourney/Markers/ExampleMarker.png"/>
+				<MarkerCategory name="qd150" displayName="Somethings a buzz" iconFile="Data/HerosJourney/Markers/ExampleMarker.png"/>
+				<MarkerCategory name="qd160" displayName="Viper's den" iconFile="Data/HerosJourney/Markers/ExampleMarker.png"/>
+				<MarkerCategory name="qd170" displayName="Faint Facade" iconFile="Data/HerosJourney/Markers/ExampleMarker.png"/>
+				<MarkerCategory name="qd180" displayName="Ministers and Queens" iconFile="Data/HerosJourney/Markers/ExampleMarker.png"/>
+				<MarkerCategory name="qd190" displayName="Hero's Rescue" iconFile="Data/HerosJourney/Markers/ExampleMarker.png"/>
+				<MarkerCategory name="qd200" displayName="Into the foothills" iconFile="Data/HerosJourney/Markers/ExampleMarker.png"/>
+				<MarkerCategory name="qd210" displayName="Just the pits" iconFile="Data/HerosJourney/Markers/ExampleMarker.png"/>
+				<MarkerCategory name="qd220" displayName="A shadow over Queensdale" iconFile="Data/HerosJourney/Markers/ExampleMarker.png"/>
+				<MarkerCategory name="qd230" displayName="Its so big" iconFile="Data/HerosJourney/Markers/ExampleMarker.png"/>
+				<MarkerCategory name="qd240" displayName="Follow the money" iconFile="Data/HerosJourney/Markers/ExampleMarker.png"/>
+				
+			</MarkerCategory>
+			
+				<!-- This is an example of a trail category
+					|                                  Trails use the texture attribute instead of iconFile
+					|                                                    |     Trails also require fadeNear and fadeFar, which are when the trail starts to fade and completely disappears, respectively
+					|                                                    |              |               |
+					V                                                    V              V               V  --> 
+			<MarkerCategory name="" displayName="" texture="Data/YOUR/FILE/PATH.png" fadeNear="3000" fadeFar="3500"/>
 			
 		</MarkerCategory>
-		
-			<!-- This is an example of a trail category
-				  |                                  Trails use the texture attribute instead of iconFile
-				  |                                                    |     Trails also require fadeNear and fadeFar, which are when the trail starts to fade and completely disappears, respectively
-				  |                                                    |              |               |
-				  V                                                    V              V               V  --> 
-		<MarkerCategory name="" displayName="" texture="Data/YOUR/FILE/PATH.png" fadeNear="3000" fadeFar="3500"/>
-		
+
 	</MarkerCategory>
-	
 	
 	<!-- 
 	**************************************************************************** 
@@ -69,7 +88,30 @@
          |     |        |       |      |        |    'GUID' is a unique identifier that is used for tracking certain behaviors(hide/unhide)
          |     |        |       |      |        |      |
          V     V        V       V      V        V      V -->
-        <POI MapID="" xpos="" ypos="" zpos="" type="" GUID=""/>
+        <POI MapID="15" xpos="-438.264" ypos="32.6197" zpos="431.508" type="hj.hu.qd.qd10" GUID="5uLhm2cPaEeUTh8xEpPrPA=="/>
+		<POI MapID="15" xpos="-659.893" ypos="20.8578" zpos="352.779" type="hj.hu.qd.qd20" GUID="O2nT4ppyXU6foiMdykmklw=="/>
+		<POI MapID="15" xpos="-702.436" ypos="11.6858" zpos="548.321" type="hj.hu.qd.qd30" GUID="ww/zOtSIYEWmHy6akH/eJQ=="/>
+		<POI MapID="15" xpos="-933.64" ypos="0.507176" zpos="688.196" type="hj.hu.qd.qd40" GUID="zR9iQ2r/E02MLcNudxtQow=="/>
+		<POI MapID="15" xpos="-981.61" ypos="28.7792" zpos="332.778" type="hj.hu.qd.qd50" GUID="rNYfQTz3HEaSWIVdBsUIew=="/>
+		<POI MapID="15" xpos="-746.546" ypos="24.2366" zpos="75.0719" type="hj.hu.qd.qd60" GUID="B0NidvB8SkuIw4/mvT0uWg=="/>
+		<POI MapID="15" xpos="-746.136" ypos="45.357" zpos="230.101" type="hj.hu.qd.qd70" GUID="vNwUddR+n0izT2OEr14Qjw=="/>
+		<POI MapID="15" xpos="-187.303" ypos="28.5914" zpos="342.52" type="hj.hu.qd.qd80" GUID="9womDpwzFkCuc6MO9FrQ5g=="/>
+		<POI MapID="15" xpos="-161.72" ypos="2.99525" zpos="28.2232" type="hj.hu.qd.qd90" GUID="ewrRchS3CUKnr8kxq54h4Q=="/>
+		<POI MapID="15" xpos="-711.982" ypos="1.53837" zpos="-281.806" type="hj.hu.qd.qd100" GUID="xjuTxbBfBUKp6LaFr8ks3Q=="/>
+		<POI MapID="15" xpos="-1038.05" ypos="71.6839" zpos="-125.277" type="hj.hu.qd.qd110" GUID="YF7XpUEhQUagZEAw0BVTdw=="/>
+		<POI MapID="15" xpos="-745.996" ypos="9.60353" zpos="-512.025" type="hj.hu.qd.qd120" GUID="ZMgrUX+DXkimkCWzN0EbJQ=="/>
+		<POI MapID="15" xpos="-195.9" ypos="18.812" zpos="-388.602" type="hj.hu.qd.qd130" GUID="hbEbW5a12U+rLkHufgssvg=="/>
+		<POI MapID="15" xpos="88.5698" ypos="32.7012" zpos="-319.65" type="hj.hu.qd.qd140" GUID="sa8VlMzCO0CMTrlizzezLQ=="/>
+		<POI MapID="15" xpos="438.982" ypos="35.9559" zpos="-5.68158" type="hj.hu.qd.qd150" GUID="V/2rfuWOQUmT+uYZhuDzAg=="/>
+		<POI MapID="15" xpos="116.979" ypos="0.710745" zpos="432.253" type="hj.hu.qd.qd160" GUID="I0SETo1a80qh0u4PC/knZw=="/>
+		<POI MapID="15" xpos="6.17189" ypos="8.66322" zpos="696.848" type="hj.hu.qd.qd170" GUID="86ApB4jV5EC//ABJgTOTDw=="/>
+		<POI MapID="15" xpos="745.035" ypos="10.4357" zpos="689.793" type="hj.hu.qd.qd180" GUID="AiCcnYnonEuiO7uo6uH4GA=="/>
+		<POI MapID="15" xpos="797.395" ypos="7.7786" zpos="533.854" type="hj.hu.qd.qd190" GUID="3Yas4bRkoEaSgm+UbY70CA=="/>
+		<POI MapID="15" xpos="992.679" ypos="76.751" zpos="-197.568" type="hj.hu.qd.qd200" GUID="vcnrQEoVzkW1a1o4p+eEbA=="/>
+		<POI MapID="15" xpos="892.582" ypos="59.1806" zpos="-502.099" type="hj.hu.qd.qd210" GUID="U0UhbTNJmkmOBc1nIjwZHQ=="/>
+		<POI MapID="15" xpos="1022.07" ypos="62.5915" zpos="-668.504" type="hj.hu.qd.qd220" GUID="aTDKnySMGkybo7H8vNZpHQ=="/>
+		<POI MapID="15" xpos="283.841" ypos="0.562794" zpos="-345.223" type="hj.hu.qd.qd230" GUID="OtbbczNJAUSQoLTMLmCxCQ=="/>
+		<POI MapID="15" xpos="333.701" ypos="6.58654" zpos="-641.638" type="hj.hu.qd.qd240" GUID="5nm+3lOCA0qqhVzgWMCLwA=="/>
 	
 	<!-- Every Trail starts with Trail and has at least 2 attributes (technically 'type' can be left out, but shouldn't be)
 	       |  'type' is the same as with markers

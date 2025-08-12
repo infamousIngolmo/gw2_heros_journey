@@ -24,48 +24,81 @@
 		<MarkerCategory name="hu" displayName="Human">
 		
 			<!-- This is an example of a sub-category -->
-			<MarkerCategory name="qd" displayName="Queensdale">
+			<MarkerCategory Name="qd" DisplayName="Queensdale" iconSize="1.25" fadeNear="9000" fadeFar="9500" heightOffset="0.5" behavior="3" autoTrigger="1" triggerRange="2" mapDisplaySize="40">
 			
 				<!-- This is an example of an actual marker
 					|    Markers have an additional 'iconFile' attribute, which is the path to what image will be used for that marker
 					|                                  |               Markers are closed with a '/' because they do not contain other markers
 					|                                  |                              |   
 					V                                  V                              V   -->
-				<MarkerCategory name="qd10" displayName="Welcome Hero" iconFile="Data/HerosJourney/Markers/ExampleMarker.png"/>
-				<MarkerCategory name="qd20" displayName="Diah-lema" iconFile="Data/HerosJourney/Markers/ExampleMarker.png"/>
-				<MarkerCategory name="qd30" displayName="Dam Bandits" iconFile="Data/HerosJourney/Markers/ExampleMarker.png"/>
-				<MarkerCategory name="qd40" displayName="Rotten Core" iconFile="Data/HerosJourney/Markers/ExampleMarker.png"/>
-				<MarkerCategory name="qd50" displayName="Two in the bush" iconFile="Data/HerosJourney/Markers/ExampleMarker.png"/>
-				<MarkerCategory name="qd60" displayName="Dispicable Business" iconFile="Data/HerosJourney/Markers/ExampleMarker.png"/>
-				<MarkerCategory name="qd70" displayName="To Shaemoor" iconFile="Data/HerosJourney/Markers/ExampleMarker.png"/>
-				<MarkerCategory name="qd80" displayName="Pushing Back" iconFile="Data/HerosJourney/Markers/ExampleMarker.png"/>
-				<MarkerCategory name="qd90" displayName="Lost Trade" iconFile="Data/HerosJourney/Markers/ExampleMarker.png"/>
-				<MarkerCategory name="qd100" displayName="Arn't you Harpy" iconFile="Data/HerosJourney/Markers/ExampleMarker.png"/>
-				<MarkerCategory name="qd110" displayName="Time for a trade" iconFile="Data/HerosJourney/Markers/ExampleMarker.png"/>
-				<MarkerCategory name="qd120" displayName="Trouble of the Heart" iconFile="Data/HerosJourney/Markers/ExampleMarker.png"/>
-				<MarkerCategory name="qd130" displayName="Something stinks in Queensdale" iconFile="Data/HerosJourney/Markers/ExampleMarker.png"/>
-				<MarkerCategory name="qd140" displayName="Not the beer!" iconFile="Data/HerosJourney/Markers/ExampleMarker.png"/>
-				<MarkerCategory name="qd150" displayName="Somethings a buzz" iconFile="Data/HerosJourney/Markers/ExampleMarker.png"/>
-				<MarkerCategory name="qd160" displayName="Viper's den" iconFile="Data/HerosJourney/Markers/ExampleMarker.png"/>
-				<MarkerCategory name="qd170" displayName="Faint Facade" iconFile="Data/HerosJourney/Markers/ExampleMarker.png"/>
-				<MarkerCategory name="qd180" displayName="Ministers and Queens" iconFile="Data/HerosJourney/Markers/ExampleMarker.png"/>
-				<MarkerCategory name="qd190" displayName="Hero's Rescue" iconFile="Data/HerosJourney/Markers/ExampleMarker.png"/>
-				<MarkerCategory name="qd200" displayName="Into the foothills" iconFile="Data/HerosJourney/Markers/ExampleMarker.png"/>
-				<MarkerCategory name="qd210" displayName="Just the pits" iconFile="Data/HerosJourney/Markers/ExampleMarker.png"/>
-				<MarkerCategory name="qd220" displayName="A shadow over Queensdale" iconFile="Data/HerosJourney/Markers/ExampleMarker.png"/>
-				<MarkerCategory name="qd230" displayName="Its so big" iconFile="Data/HerosJourney/Markers/ExampleMarker.png"/>
-				<MarkerCategory name="qd240" displayName="Follow the money" iconFile="Data/HerosJourney/Markers/ExampleMarker.png"/>
-				
+				<MarkerCategory Name="qd10" DisplayName="Welcome Hero" iconFile="Data/HerosJourney/Markers/hu-qd-10.png"/>
+				<MarkerCategory Name="qd20" DisplayName="Diah-lema" iconFile="Data/HerosJourney/Markers/hu-qd-20.png"/>
+				<MarkerCategory Name="qd30" DisplayName="Dam Bandits" iconFile="Data/HerosJourney/Markers/hu-qd-30.png"/>
+				<MarkerCategory Name="qd40" DisplayName="Rotten Core" iconFile="Data/HerosJourney/Markers/hu-qd-40.png"/>
+				<MarkerCategory Name="qd50" DisplayName="Two in the bush" iconFile="Data/HerosJourney/Markers/hu-qd-50.png"/>
+				<MarkerCategory Name="qd60" DisplayName="Dispicable Business" iconFile="Data/HerosJourney/Markers/hu-qd-60.png"/>
+				<MarkerCategory Name="qd70" DisplayName="To Shaemoor" iconFile="Data/HerosJourney/Markers/hu-qd-70.png"/>
+				<MarkerCategory Name="qd80" DisplayName="Pushing Back" iconFile="Data/HerosJourney/Markers/hu-qd-80.png"/>
+				<MarkerCategory Name="qd90" DisplayName="Lost Trade" iconFile="Data/HerosJourney/Markers/hu-qd-90.png"/>
+				<MarkerCategory Name="qd100" DisplayName="Arn't you Harpy" iconFile="Data/HerosJourney/Markers/hu-qd-100.png"/>
+				<MarkerCategory Name="qd110" DisplayName="Time for a trade" iconFile="Data/HerosJourney/Markers/hu-qd-110.png"/>
+				<MarkerCategory Name="qd120" DisplayName="Trouble of the Heart" iconFile="Data/HerosJourney/Markers/hu-qd-120.png"/>
+				<MarkerCategory Name="qd130" DisplayName="Something stinks in Queensdale" iconFile="Data/HerosJourney/Markers/hu-qd-130.png"/>
+				<MarkerCategory Name="qd140" DisplayName="Not the beer!" iconFile="Data/HerosJourney/Markers/hu-qd-140.png"/>
+				<MarkerCategory Name="qd150" DisplayName="Somethings a buzz" iconFile="Data/HerosJourney/Markers/hu-qd-150.png"/>
+				<MarkerCategory Name="qd160" DisplayName="Viper's den" iconFile="Data/HerosJourney/Markers/hu-qd-160.png"/>
+				<MarkerCategory Name="qd170" DisplayName="Faint Facade" iconFile="Data/HerosJourney/Markers/hu-qd-170.png"/>
+				<MarkerCategory Name="qd180" DisplayName="Ministers and Queens" iconFile="Data/HerosJourney/Markers/hu-qd-180.png"/>
+				<MarkerCategory Name="qd190" DisplayName="Hero's Rescue" iconFile="Data/HerosJourney/Markers/hu-qd-190.png"/>
+				<MarkerCategory Name="qd200" DisplayName="Into the foothills" iconFile="Data/HerosJourney/Markers/hu-qd-200.png"/>
+				<MarkerCategory Name="qd210" DisplayName="Just the pits" iconFile="Data/HerosJourney/Markers/hu-qd-210.png"/>
+				<MarkerCategory Name="qd220" DisplayName="A shadow over Queensdale" iconFile="Data/HerosJourney/Markers/hu-qd-220.png"/>
+				<MarkerCategory Name="qd230" DisplayName="Its so big" iconFile="Data/HerosJourney/Markers/hu-qd-230.png"/>
+				<MarkerCategory Name="qd240" DisplayName="Follow the money" iconFile="Data/HerosJourney/Markers/hu-qd-240.png"/>
 			</MarkerCategory>
-			
-				<!-- This is an example of a trail category
-					|                                  Trails use the texture attribute instead of iconFile
-					|                                                    |     Trails also require fadeNear and fadeFar, which are when the trail starts to fade and completely disappears, respectively
-					|                                                    |              |               |
-					V                                                    V              V               V  --> 
-			<MarkerCategory name="" displayName="" texture="Data/YOUR/FILE/PATH.png" fadeNear="3000" fadeFar="3500"/>
-			
 		</MarkerCategory>
+
+		<MarkerCategory Name="sy" DisplayName="Sylvari">
+			<MarkerCategory Name="cf" DisplayName="Caledon Forest" iconSize="1.25" fadeNear="9000" fadeFar="9500" heightOffset="0.5" behavior="3" autoTrigger="1" triggerRange="2" mapDisplaySize="40">
+				<MarkerCategory Name="cf10" DisplayName="Welcome Hero" iconFile="Data/HerosJourney/Markers/sy-cf-10.png"/>
+				<MarkerCategory Name="cf20" DisplayName="Diah-lema" iconFile="Data/HerosJourney/Markers/sy-cf-20.png"/>
+				<MarkerCategory Name="cf30" DisplayName="Dam Bandits" iconFile="Data/HerosJourney/Markers/sy-cf-30.png"/>
+				<MarkerCategory Name="cf40" DisplayName="Rotten Core" iconFile="Data/HerosJourney/Markers/sy-cf-40.png"/>
+				<MarkerCategory Name="cf50" DisplayName="Two in the bush" iconFile="Data/HerosJourney/Markers/sy-cf-50.png"/>
+				<MarkerCategory Name="cf60" DisplayName="Two in the bush" iconFile="Data/HerosJourney/Markers/sy-cf-60.png"/>
+				<MarkerCategory Name="cf70" DisplayName="Two in the bush" iconFile="Data/HerosJourney/Markers/sy-cf-70.png"/>
+				<MarkerCategory Name="cf80" DisplayName="Two in the bush" iconFile="Data/HerosJourney/Markers/sy-cf-80.png"/>
+				<MarkerCategory Name="cf90" DisplayName="Two in the bush" iconFile="Data/HerosJourney/Markers/sy-cf-90.png"/>
+				<MarkerCategory Name="cf100" DisplayName="Two in the bush" iconFile="Data/HerosJourney/Markers/sy-cf-100.png"/>
+				<MarkerCategory Name="cf110" DisplayName="Two in the bush" iconFile="Data/HerosJourney/Markers/sy-cf-110.png"/>
+				<MarkerCategory Name="cf120" DisplayName="Two in the bush" iconFile="Data/HerosJourney/Markers/sy-cf-120.png"/>
+				<MarkerCategory Name="cf130" DisplayName="Two in the bush" iconFile="Data/HerosJourney/Markers/sy-cf-130.png"/>
+				<MarkerCategory Name="cf140" DisplayName="Two in the bush" iconFile="Data/HerosJourney/Markers/sy-cf-140.png"/>
+				<MarkerCategory Name="cf150" DisplayName="Two in the bush" iconFile="Data/HerosJourney/Markers/sy-cf-150.png"/>
+				<MarkerCategory Name="cf160" DisplayName="Two in the bush" iconFile="Data/HerosJourney/Markers/sy-cf-160.png"/>
+				<MarkerCategory Name="cf170" DisplayName="Two in the bush" iconFile="Data/HerosJourney/Markers/sy-cf-170.png"/>
+				<MarkerCategory Name="cf180" DisplayName="Two in the bush" iconFile="Data/HerosJourney/Markers/sy-cf-180.png"/>
+				<MarkerCategory Name="cf190" DisplayName="Two in the bush" iconFile="Data/HerosJourney/Markers/sy-cf-190.png"/>
+				<MarkerCategory Name="cf200" DisplayName="Two in the bush" iconFile="Data/HerosJourney/Markers/sy-cf-200.png"/>
+				<MarkerCategory Name="cf210" DisplayName="Two in the bush" iconFile="Data/HerosJourney/Markers/sy-cf-210.png"/>
+				<MarkerCategory Name="cf220" DisplayName="Two in the bush" iconFile="Data/HerosJourney/Markers/sy-cf-220.png"/>
+				<MarkerCategory Name="cf230" DisplayName="Two in the bush" iconFile="Data/HerosJourney/Markers/sy-cf-230.png"/>
+				<MarkerCategory Name="cf240" DisplayName="Two in the bush" iconFile="Data/HerosJourney/Markers/sy-cf-240.png"/>
+				<MarkerCategory Name="cf250" DisplayName="Two in the bush" iconFile="Data/HerosJourney/Markers/sy-cf-250.png"/>
+				<MarkerCategory Name="cf260" DisplayName="Two in the bush" iconFile="Data/HerosJourney/Markers/sy-cf-260.png"/>
+			</MarkerCategory>
+		</MarkerCategory>
+
+		<MarkerCategory Name="as" DisplayName="Asura">
+			<MarkerCategory Name="mp" DisplayName="Metrica Province" iconSize="1.25" fadeNear="9000" fadeFar="9500" heightOffset="0.5" behavior="3" autoTrigger="1" triggerRange="2" mapDisplaySize="40">
+				<MarkerCategory Name="mp10" DisplayName="Welcome Hero" iconFile="Data/HerosJourney/Markers/as-mp-10.png"/>
+				<MarkerCategory Name="mp20" DisplayName="Diah-lema" iconFile="Data/HerosJourney/Markers/as-mp-20.png"/>
+				<MarkerCategory Name="mp30" DisplayName="Dam Bandits" iconFile="Data/HerosJourney/Markers/as-mp-30.png"/>
+
+			</MarkerCategory>
+		</MarkerCategory>
+			
+
 
 	</MarkerCategory>
 	
@@ -88,7 +121,27 @@
          |     |        |       |      |        |    'GUID' is a unique identifier that is used for tracking certain behaviors(hide/unhide)
          |     |        |       |      |        |      |
          V     V        V       V      V        V      V -->
-        <POI MapID="15" xpos="-438.264" ypos="32.6197" zpos="431.508" type="hj.hu.qd.qd10" GUID="5uLhm2cPaEeUTh8xEpPrPA=="/>
+		<POI MapID="35" xpos="-384.394" ypos="44.3708" zpos="-756.076" GUID="vWLPjM6H2kiEaCoJPLE5zQ=="/>
+		<POI MapID="35" xpos="-82.6237" ypos="36.0535" zpos="-819.806" GUID="WTTioH8+FEaW96Bjlm8gdQ=="/>
+		<POI MapID="35" xpos="51.7419" ypos="32.4898" zpos="-893.042" GUID="LsTzTU046E2kY8qkrUUBSg=="/>
+		<POI MapID="35" xpos="166.381" ypos="2.21492" zpos="-660.993" GUID="Gf108XRbEU2x49L4wdoJKA=="/>
+		<POI MapID="35" xpos="-393.394" ypos="45.1402" zpos="-596.415" GUID="bYqJiFZBF0qZML8HksZ+Hg=="/>
+		<POI MapID="35" xpos="-484.913" ypos="21.842" zpos="-305.18" GUID="IsbmCEbrx02628TLqxSHHw=="/>
+		<POI MapID="35" xpos="-57.4286" ypos="25.5786" zpos="-154.219" GUID="BuMs+JUu+0OERnq7xWJLXQ=="/>
+		<POI MapID="35" xpos="277.632" ypos="3.38845" zpos="-84.0975" GUID="UZFBb2fRzkC+MJLEPh0C4w=="/>
+		<POI MapID="35" xpos="-145.243" ypos="10.3875" zpos="113.607" GUID="iPuhnnJ3JUCyVl3S5tkJaQ=="/>
+		<POI MapID="35" xpos="-445.326" ypos="0.202636" zpos="165.142" GUID="i1uxCphLdUSQkUoCpKb5jg=="/>
+		<POI MapID="35" xpos="-512.821" ypos="44.0862" zpos="271.553" GUID="hK8mK4bhu0e8B2uGOCbcww=="/>
+		<POI MapID="35" xpos="-490.335" ypos="14.7208" zpos="536.931" GUID="6ecx7pNlD0qTaPhbWBU8Ww=="/>
+		<POI MapID="35" xpos="555.53" ypos="67.7107" zpos="928.387" GUID="M27oR+2Xs0aD3MYpKmaNfQ=="/>
+		<POI MapID="35" xpos="-236.868" ypos="13.3059" zpos="495.949" GUID="QwXGKRY4U0+pTVeykDamig=="/>
+		<POI MapID="35" xpos="57.4614" ypos="16.6949" zpos="533.727" GUID="3oB9w/joaUicUbTPZjfUmw=="/>
+		<POI MapID="35" xpos="459.893" ypos="42.1586" zpos="427.959" GUID="ZIcZrGI2pkyig/MUmpGI/w=="/>
+		<POI MapID="35" xpos="429.255" ypos="27.9803" zpos="699.95" GUID="i/HTnyFWJEaul1f1g6KWow=="/>
+		<POI MapID="35" xpos="486.62" ypos="75.2587" zpos="867.821" GUID="rQgWaRn5TEyO6O88IYbo1A=="/>
+		<POI MapID="35" xpos="-131.591" ypos="10.4154" zpos="703.575" GUID="2QtlaSePJk2Nqp6QoyQ8fg=="/>
+		<POI MapID="35" xpos="-72.0528" ypos="26.7218" zpos="885.209" GUID="eh/xfrsI+0G+lS7SMBt9wQ=="/>
+		<POI MapID="15" xpos="-438.264" ypos="32.6197" zpos="431.508" type="hj.hu.qd.qd10" GUID="5uLhm2cPaEeUTh8xEpPrPA=="/>
 		<POI MapID="15" xpos="-659.893" ypos="20.8578" zpos="352.779" type="hj.hu.qd.qd20" GUID="O2nT4ppyXU6foiMdykmklw=="/>
 		<POI MapID="15" xpos="-702.436" ypos="11.6858" zpos="548.321" type="hj.hu.qd.qd30" GUID="ww/zOtSIYEWmHy6akH/eJQ=="/>
 		<POI MapID="15" xpos="-933.64" ypos="0.507176" zpos="688.196" type="hj.hu.qd.qd40" GUID="zR9iQ2r/E02MLcNudxtQow=="/>
@@ -112,13 +165,32 @@
 		<POI MapID="15" xpos="1022.07" ypos="62.5915" zpos="-668.504" type="hj.hu.qd.qd220" GUID="aTDKnySMGkybo7H8vNZpHQ=="/>
 		<POI MapID="15" xpos="283.841" ypos="0.562794" zpos="-345.223" type="hj.hu.qd.qd230" GUID="OtbbczNJAUSQoLTMLmCxCQ=="/>
 		<POI MapID="15" xpos="333.701" ypos="6.58654" zpos="-641.638" type="hj.hu.qd.qd240" GUID="5nm+3lOCA0qqhVzgWMCLwA=="/>
-	
-	<!-- Every Trail starts with Trail and has at least 2 attributes (technically 'type' can be left out, but shouldn't be)
-	       |  'type' is the same as with markers
-		   |          'trailData' is a file path to the .trl file that should be used for this trail
-		   |               |
-	       V               V                               -->
-        <Trail type="" trailData="Data/YOUR/FILE/PATH.trl"/>
+		<POI MapID="34" xpos="-149.662" ypos="3.64422" zpos="-982.454" type="hj.sy.cf.cf10" GUID="QdRnspXbXEiQmDVEhkN6pg=="/>
+		<POI MapID="34" xpos="-82.5489" ypos="0.654825" zpos="-881.874" type="hj.sy.cf.cf20" GUID="VJzrDEp2JUKwiuhY89co4w=="/>
+		<POI MapID="34" xpos="128.34" ypos="4.23292" zpos="-874.489" type="hj.sy.cf.cf30" GUID="hVrevlbzJU2vrX0NI+SMeQ=="/>
+		<POI MapID="34" xpos="270.962" ypos="53.1888" zpos="-915.491" type="hj.sy.cf.cf40" GUID="qlaniVhq6EKlJmXAN7N+XA=="/>
+		<POI MapID="34" xpos="520.089" ypos="-0.311237" zpos="-1104.45" type="hj.sy.cf.cf50" GUID="nB/vRG4zA0aef8PeRHrtkA=="/>
+		<POI MapID="34" xpos="544.827" ypos="0.26878" zpos="-759.356" type="hj.sy.cf.cf60" GUID="PDu4O52xtkiXxrIsuRi94A=="/>
+		<POI MapID="34" xpos="476.794" ypos="0.114928" zpos="-530.808" type="hj.sy.cf.cf70" GUID="LFuT9zUtXUK30DEAjq5xQw=="/>
+		<POI MapID="34" xpos="413.628" ypos="27.5671" zpos="-600.39" type="hj.sy.cf.cf80" GUID="sQ8ct8Fht0uMRY9tgcS2lg=="/>
+		<POI MapID="34" xpos="432.874" ypos="1.56236" zpos="-144.522" type="hj.sy.cf.cf90" GUID="KYNjvbRpfUyabjtWbq7Iow=="/>
+		<POI MapID="34" xpos="18.6083" ypos="29.1682" zpos="-300.982" type="hj.sy.cf.cf100" GUID="zINnCCiFok+DO9vtizEm0A=="/>
+		<POI MapID="34" xpos="-242.686" ypos="30.421" zpos="-329.23" type="hj.sy.cf.cf110" GUID="IW0gjuh3vU+cRU0iaJriZw=="/>
+		<POI MapID="34" xpos="-405.743" ypos="21.4739" zpos="-453.477" type="hj.sy.cf.cf120" GUID="TvN03s1jq0+cVAVjsjrJdA=="/>
+		<POI MapID="34" xpos="-519.567" ypos="14.2992" zpos="-521.394" type="hj.sy.cf.cf130" GUID="r4FHEGIwc0iGR6FeFyW8iQ=="/>
+		<POI MapID="34" xpos="-78.7924" ypos="2.17743" zpos="9.2344" type="hj.sy.cf.cf140" GUID="B5UWwagar0CW9dSQuuH3Jw=="/>
+		<POI MapID="34" xpos="-240.634" ypos="18.0644" zpos="115.307" type="hj.sy.cf.cf150" GUID="dv0vT9SQ/kewwO8l9EcmLA=="/>
+		<POI MapID="34" xpos="-407.007" ypos="36.3787" zpos="218.443" type="hj.sy.cf.cf160" GUID="2XtkxFAXOUKDRuJ8rdyHzg=="/>
+		<POI MapID="34" xpos="-393.166" ypos="42.3052" zpos="361.853" type="hj.sy.cf.cf170" GUID="jd0yo4yd3kyh0x+0/FXe6g=="/>
+		<POI MapID="34" xpos="82.3498" ypos="65.8816" zpos="520.628" type="hj.sy.cf.cf180" GUID="nqTTA8RZr02PYnXMj+0/CA=="/>
+		<POI MapID="34" xpos="540.884" ypos="19.0939" zpos="229.839" type="hj.sy.cf.cf190" GUID="RJoGw6A/RkqWXCiupR2j1A=="/>
+		<POI MapID="34" xpos="522.908" ypos="1.87391" zpos="707.662" type="hj.sy.cf.cf200" GUID="4cW+oEKgX0WFC4PTnZNoJA=="/>
+		<POI MapID="34" xpos="533.906" ypos="-0.384537" zpos="920.539" type="hj.sy.cf.cf210" GUID="yHxgOQeUIkOUETg3zTw7xg=="/>
+		<POI MapID="34" xpos="277.13" ypos="9.6685" zpos="994.71" type="hj.sy.cf.cf220" GUID="/80h6f0bqUSRyQfOjtr0CA=="/>
+		<POI MapID="34" xpos="-64.3667" ypos="16.6061" zpos="849.412" type="hj.sy.cf.cf230" GUID="7rXqbRvC1UedPjJmuCse5Q=="/>
+		<POI MapID="34" xpos="-311.082" ypos="0.559359" zpos="824.917" type="hj.sy.cf.cf240" GUID="R8z+roa1q0ivU951PnDF0w=="/>
+		<POI MapID="34" xpos="-389.541" ypos="0.265262" zpos="966.338" type="hj.sy.cf.cf250" GUID="dUBALxrhm0mA6xeWoIlmvQ=="/>
+		<POI MapID="34" xpos="-453.532" ypos="5.86752" zpos="1144.03" type="hj.sy.cf.cf260" GUID="+e3ikyA2xkq8EylBJhfw9Q=="/>
 		
 	</POIs>
 

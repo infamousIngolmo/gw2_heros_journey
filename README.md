@@ -8,35 +8,35 @@ The intent is:
 
 
 In Review:
-Queensdale - Logan and Faren
-Caledon Forest - Caithe
+- Queensdale - Logan and Faren
+- Caledon Forest - Caithe
 
 Storyboarded:
-Plains of Ashford - Rytlock and Blood legion soldier
-Metrica Province - Zojja
-Wayfarer Foothills - Eir
+- Plains of Ashford - Rytlock and Blood legion soldier
+- Metrica Province - Zojja
+- Wayfarer Foothills - Eir
 
 Marker's recorded:
-Plains of Ashford
-Metrica Province
-Wayfarer Foothills
+- Plains of Ashford
+- Metrica Province
+- Wayfarer Foothills
 
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/B0B31JRCWC)
 
 Future Zones/Up next:
-Gendarran Fields - Logan and Tybalt
-Lornar's Pass - Eir and Sieran
-Fields of Ruin - Rytlock and Forgal
-Harathi Hinterlands - Logan and Tybalt
-Blazeridge Steppes - Rytlock and Forgal
-Dredgehaunt Cliffs - Eir and Sieran
-Bloodtide Coast - Logan, Zojja and Tybalt
-Iron Marches - Rytlock and Forgal
-Timberline Falls - Eir, Zojja and Sieran
-Sparkfly Fen - Zojja and Tybalt
-Fireheart Rise - Rytlock and Forgal
-Mount Maelstrom - Zojja, Tybalt and Sieran
-Straights of Devastation - Trahern
-Frostgorge Sound - Eir
-Malchor's Leap - Trahern
-Cursed Shore - Trahern
+- Gendarran Fields - Logan and Tybalt
+- Lornar's Pass - Eir and Sieran
+- Fields of Ruin - Rytlock and Forgal
+- Harathi Hinterlands - Logan and Tybalt
+- Blazeridge Steppes - Rytlock and Forgal
+- Dredgehaunt Cliffs - Eir and Sieran
+- Bloodtide Coast - Logan, Zojja and Tybalt
+- Iron Marches - Rytlock and Forgal
+- Timberline Falls - Eir, Zojja and Sieran
+- Sparkfly Fen - Zojja and Tybalt
+- Fireheart Rise - Rytlock and Forgal
+- Mount Maelstrom - Zojja, Tybalt and Sieran
+- Straights of Devastation - Trahern
+- Frostgorge Sound - Eir
+- Malchor's Leap - Trahern
+- Cursed Shore - Trahern

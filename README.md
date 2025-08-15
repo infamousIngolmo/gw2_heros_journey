@@ -1,5 +1,8 @@
 # gw2_heros_journey
 Marker Pack for GW2, which details the journey that the player character takes through the world of Tyria
+
+<img width="968" height="937" alt="Image" src="https://github.com/user-attachments/assets/48b6dccc-96df-43e2-805a-39afc14a19ab" />
+
 The intent is:
  * for characters which the player meets to be more present in the world rather than at every 10 levels
  * intertwine the events or hearts on the map into a story which compliments the main story line

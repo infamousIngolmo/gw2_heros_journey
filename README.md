@@ -13,15 +13,14 @@ The intent is:
 In Review:
 - Queensdale - Logan and Faren
 - Caledon Forest - Caithe
+- Metrica Province - Zojja
 
 Storyboarded:
 - Plains of Ashford - Rytlock and Blood legion soldier
-- Metrica Province - Zojja
 - Wayfarer Foothills - Eir
 
 Marker's recorded:
 - Plains of Ashford
-- Metrica Province
 - Wayfarer Foothills
 
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/B0B31JRCWC)

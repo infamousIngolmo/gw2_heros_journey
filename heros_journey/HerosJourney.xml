@@ -24,7 +24,7 @@
 		<MarkerCategory name="hu" displayName="Human">
 		
 			<!-- This is an example of a sub-category -->
-			<MarkerCategory Name="qd" DisplayName="Queensdale" iconSize="1.25" fadeNear="9000" fadeFar="9500" heightOffset="0.5" behavior="3" autoTrigger="1" triggerRange="2" mapDisplaySize="40">
+			<MarkerCategory Name="qd" DisplayName="Queensdale" iconSize="1.25" fadeNear="9000" fadeFar="9500" heightOffset="0.5" behavior="3" autoTrigger="0" triggerRange="3" mapDisplaySize="40">
 			
 				<!-- This is an example of an actual marker
 					|    Markers have an additional 'iconFile' attribute, which is the path to what image will be used for that marker
@@ -59,7 +59,7 @@
 		</MarkerCategory>
 
 		<MarkerCategory Name="sy" DisplayName="Sylvari">
-			<MarkerCategory Name="cf" DisplayName="Caledon Forest" iconSize="1.25" fadeNear="9000" fadeFar="9500" heightOffset="0.5" behavior="3" autoTrigger="1" triggerRange="2" mapDisplaySize="40">
+			<MarkerCategory Name="cf" DisplayName="Caledon Forest" iconSize="1.25" fadeNear="9000" fadeFar="9500" heightOffset="0.5" behavior="3" autoTrigger="0" triggerRange="3" mapDisplaySize="40">
 				<MarkerCategory Name="cf10" DisplayName="Welcome Hero" iconFile="Data/HerosJourney/Markers/sy-cf-10.png"/>
 				<MarkerCategory Name="cf20" DisplayName="Diah-lema" iconFile="Data/HerosJourney/Markers/sy-cf-20.png"/>
 				<MarkerCategory Name="cf30" DisplayName="Dam Bandits" iconFile="Data/HerosJourney/Markers/sy-cf-30.png"/>
@@ -90,11 +90,29 @@
 		</MarkerCategory>
 
 		<MarkerCategory Name="as" DisplayName="Asura">
-			<MarkerCategory Name="mp" DisplayName="Metrica Province" iconSize="1.25" fadeNear="9000" fadeFar="9500" heightOffset="0.5" behavior="3" autoTrigger="1" triggerRange="2" mapDisplaySize="40">
-				<MarkerCategory Name="mp10" DisplayName="Welcome Hero" iconFile="Data/HerosJourney/Markers/as-mp-10.png"/>
-				<MarkerCategory Name="mp20" DisplayName="Diah-lema" iconFile="Data/HerosJourney/Markers/as-mp-20.png"/>
-				<MarkerCategory Name="mp30" DisplayName="Dam Bandits" iconFile="Data/HerosJourney/Markers/as-mp-30.png"/>
-
+			<MarkerCategory Name="mp" DisplayName="Metrica Province" iconSize="1.25" fadeNear="9000" fadeFar="9500" heightOffset="0.5" behavior="3" autoTrigger="0" triggerRange="3" mapDisplaySize="40">
+				<MarkerCategory Name="mp10" DisplayName="Welcome Savant" iconFile="Data/HerosJourney/Markers/as-mp-10.png"/>
+				<MarkerCategory Name="mp20" DisplayName="Impressionable Minds" iconFile="Data/HerosJourney/Markers/as-mp-20.png"/>
+				<MarkerCategory Name="mp30" DisplayName="Secret Project" iconFile="Data/HerosJourney/Markers/as-mp-30.png"/>
+				<MarkerCategory Name="mp40" DisplayName="Poisoned Needle" iconFile="Data/HerosJourney/Markers/as-mp-40.png"/>
+				<MarkerCategory Name="mp50" DisplayName="A Funtime" iconFile="Data/HerosJourney/Markers/as-mp-50.png"/>
+				<MarkerCategory Name="mp60" DisplayName="Crystal Reading" iconFile="Data/HerosJourney/Markers/as-mp-60.png"/>
+				<MarkerCategory Name="mp70" DisplayName="RATS" iconFile="Data/HerosJourney/Markers/as-mp-70.png"/>
+				<MarkerCategory Name="mp80" DisplayName="Desider Atum" iconFile="Data/HerosJourney/Markers/as-mp-80.png"/>
+				<MarkerCategory Name="mp90" DisplayName="Prison Break" iconFile="Data/HerosJourney/Markers/as-mp-90.png"/>
+				<MarkerCategory Name="mp100" DisplayName="Help me A-sur-an" iconFile="Data/HerosJourney/Markers/as-mp-100.png"/>
+				<MarkerCategory Name="mp110" DisplayName="Techno Rave" iconFile="Data/HerosJourney/Markers/as-mp-110.png"/>
+				<MarkerCategory Name="mp120" DisplayName="More Rats?!" iconFile="Data/HerosJourney/Markers/as-mp-120.png"/>
+				<MarkerCategory Name="mp130" DisplayName="Holy camole" iconFile="Data/HerosJourney/Markers/as-mp-130.png"/>
+				<MarkerCategory Name="mp140" DisplayName="Into infinity" iconFile="Data/HerosJourney/Markers/as-mp-140.png"/>
+				<MarkerCategory Name="mp150" DisplayName="Pop goes the..." iconFile="Data/HerosJourney/Markers/as-mp-150.png"/>
+				<MarkerCategory Name="mp160" DisplayName="Power Overwhelming" iconFile="Data/HerosJourney/Markers/as-mp-160.png"/>
+				<MarkerCategory Name="mp170" DisplayName="Flickering Bulb" iconFile="Data/HerosJourney/Markers/as-mp-170.png"/>
+				<MarkerCategory Name="mp180" DisplayName="Defending the source" iconFile="Data/HerosJourney/Markers/as-mp-180.png"/>
+				<MarkerCategory Name="mp190" DisplayName="Open up its the..." iconFile="Data/HerosJourney/Markers/as-mp-190.png"/>
+				<MarkerCategory Name="mp200" DisplayName="Viral Infection" iconFile="Data/HerosJourney/Markers/as-mp-200.png"/>
+				<MarkerCategory Name="mp210" DisplayName="In denile" iconFile="Data/HerosJourney/Markers/as-mp-210.png"/>
+				<MarkerCategory Name="mp220" DisplayName="Thaumanova Heist" iconFile="Data/HerosJourney/Markers/as-mp-220.png"/>
 			</MarkerCategory>
 		</MarkerCategory>
 			
@@ -121,26 +139,28 @@
          |     |        |       |      |        |    'GUID' is a unique identifier that is used for tracking certain behaviors(hide/unhide)
          |     |        |       |      |        |      |
          V     V        V       V      V        V      V -->
-		<POI MapID="35" xpos="-384.394" ypos="44.3708" zpos="-756.076" GUID="vWLPjM6H2kiEaCoJPLE5zQ=="/>
-		<POI MapID="35" xpos="-82.6237" ypos="36.0535" zpos="-819.806" GUID="WTTioH8+FEaW96Bjlm8gdQ=="/>
-		<POI MapID="35" xpos="51.7419" ypos="32.4898" zpos="-893.042" GUID="LsTzTU046E2kY8qkrUUBSg=="/>
-		<POI MapID="35" xpos="166.381" ypos="2.21492" zpos="-660.993" GUID="Gf108XRbEU2x49L4wdoJKA=="/>
-		<POI MapID="35" xpos="-393.394" ypos="45.1402" zpos="-596.415" GUID="bYqJiFZBF0qZML8HksZ+Hg=="/>
-		<POI MapID="35" xpos="-484.913" ypos="21.842" zpos="-305.18" GUID="IsbmCEbrx02628TLqxSHHw=="/>
-		<POI MapID="35" xpos="-57.4286" ypos="25.5786" zpos="-154.219" GUID="BuMs+JUu+0OERnq7xWJLXQ=="/>
-		<POI MapID="35" xpos="277.632" ypos="3.38845" zpos="-84.0975" GUID="UZFBb2fRzkC+MJLEPh0C4w=="/>
-		<POI MapID="35" xpos="-145.243" ypos="10.3875" zpos="113.607" GUID="iPuhnnJ3JUCyVl3S5tkJaQ=="/>
-		<POI MapID="35" xpos="-445.326" ypos="0.202636" zpos="165.142" GUID="i1uxCphLdUSQkUoCpKb5jg=="/>
-		<POI MapID="35" xpos="-512.821" ypos="44.0862" zpos="271.553" GUID="hK8mK4bhu0e8B2uGOCbcww=="/>
-		<POI MapID="35" xpos="-490.335" ypos="14.7208" zpos="536.931" GUID="6ecx7pNlD0qTaPhbWBU8Ww=="/>
-		<POI MapID="35" xpos="555.53" ypos="67.7107" zpos="928.387" GUID="M27oR+2Xs0aD3MYpKmaNfQ=="/>
-		<POI MapID="35" xpos="-236.868" ypos="13.3059" zpos="495.949" GUID="QwXGKRY4U0+pTVeykDamig=="/>
-		<POI MapID="35" xpos="57.4614" ypos="16.6949" zpos="533.727" GUID="3oB9w/joaUicUbTPZjfUmw=="/>
-		<POI MapID="35" xpos="459.893" ypos="42.1586" zpos="427.959" GUID="ZIcZrGI2pkyig/MUmpGI/w=="/>
-		<POI MapID="35" xpos="429.255" ypos="27.9803" zpos="699.95" GUID="i/HTnyFWJEaul1f1g6KWow=="/>
-		<POI MapID="35" xpos="486.62" ypos="75.2587" zpos="867.821" GUID="rQgWaRn5TEyO6O88IYbo1A=="/>
-		<POI MapID="35" xpos="-131.591" ypos="10.4154" zpos="703.575" GUID="2QtlaSePJk2Nqp6QoyQ8fg=="/>
-		<POI MapID="35" xpos="-72.0528" ypos="26.7218" zpos="885.209" GUID="eh/xfrsI+0G+lS7SMBt9wQ=="/>
+		<POI MapID="35" xpos="-384.394" ypos="44.3708" zpos="-756.076" type="hj.as.mp.mp10" GUID="vWLPjM6H2kiEaCoJPLE5zQ=="/>
+		<POI MapID="35" xpos="-82.6237" ypos="36.0535" zpos="-819.806" type="hj.as.mp.mp20" GUID="WTTioH8+FEaW96Bjlm8gdQ=="/>
+		<POI MapID="35" xpos="51.7419" ypos="32.4898" zpos="-893.042" type="hj.as.mp.mp30" GUID="LsTzTU046E2kY8qkrUUBSg=="/>
+		<POI MapID="35" xpos="166.381" ypos="2.21492" zpos="-660.993" type="hj.as.mp.mp40" GUID="Gf108XRbEU2x49L4wdoJKA=="/>
+		<POI MapID="35" xpos="-393.394" ypos="45.1402" zpos="-596.415" type="hj.as.mp.mp50" GUID="bYqJiFZBF0qZML8HksZ+Hg=="/>
+		<POI MapID="35" xpos="-477.883" ypos="21.842" zpos="-305.18" type="hj.as.mp.mp60" GUID="IsbmCEbrx02628TLqxSHHw=="/>
+		<POI MapID="35" xpos="-57.4286" ypos="25.5786" zpos="-154.219" type="hj.as.mp.mp70" GUID="BuMs+JUu+0OERnq7xWJLXQ=="/>
+		<POI MapID="35" xpos="277.632" ypos="3.38845" zpos="-84.0975" type="hj.as.mp.mp80" GUID="UZFBb2fRzkC+MJLEPh0C4w=="/>
+		<POI MapID="35" xpos="53.0317" ypos="3.84146" zpos="7.78333" type="hj.as.mp.mp90" GUID="3PshXLLKzE68ho8QGPWwFg=="/>
+		<POI MapID="35" xpos="20.3412" ypos="22.4523" zpos="-61.0366" type="hj.as.mp.mp100" GUID="ITTCY2QVYEiIVaQs5i9zXA=="/>
+		<POI MapID="35" xpos="-145.243" ypos="10.3875" zpos="113.607" type="hj.as.mp.mp110" GUID="iPuhnnJ3JUCyVl3S5tkJaQ=="/>
+		<POI MapID="35" xpos="-505.176" ypos="9.71174" zpos="167.001" type="hj.as.mp.mp120" GUID="WGBqp3sWekeIDX98meEJBw=="/>
+		<POI MapID="35" xpos="-512.821" ypos="44.0862" zpos="271.553" type="hj.as.mp.mp130" GUID="hK8mK4bhu0e8B2uGOCbcww=="/>
+		<POI MapID="35" xpos="-576.127" ypos="16.7454" zpos="498.212" type="hj.as.mp.mp140" GUID="6RrPOWwfy0i/gkDnqhMH+A=="/>
+		<POI MapID="35" xpos="555.53" ypos="67.7107" zpos="928.387" type="hj.as.mp.mp150" GUID="M27oR+2Xs0aD3MYpKmaNfQ=="/>
+		<POI MapID="35" xpos="-236.868" ypos="13.3059" zpos="495.949" type="hj.as.mp.mp160" GUID="QwXGKRY4U0+pTVeykDamig=="/>
+		<POI MapID="35" xpos="57.4614" ypos="16.6949" zpos="533.727" type="hj.as.mp.mp170" GUID="3oB9w/joaUicUbTPZjfUmw=="/>
+		<POI MapID="35" xpos="459.893" ypos="42.1586" zpos="427.959" type="hj.as.mp.mp180" GUID="ZIcZrGI2pkyig/MUmpGI/w=="/>
+		<POI MapID="35" xpos="429.255" ypos="27.9803" zpos="699.95" type="hj.as.mp.mp190" GUID="i/HTnyFWJEaul1f1g6KWow=="/>
+		<POI MapID="35" xpos="486.62" ypos="75.2587" zpos="867.821" type="hj.as.mp.mp200" GUID="rQgWaRn5TEyO6O88IYbo1A=="/>
+		<POI MapID="35" xpos="-131.591" ypos="10.4154" zpos="703.575" type="hj.as.mp.mp210" GUID="2QtlaSePJk2Nqp6QoyQ8fg=="/>
+		<POI MapID="35" xpos="-72.0528" ypos="26.7218" zpos="885.209" type="hj.as.mp.mp220" GUID="eh/xfrsI+0G+lS7SMBt9wQ=="/>
 		<POI MapID="15" xpos="-438.264" ypos="32.6197" zpos="431.508" type="hj.hu.qd.qd10" GUID="5uLhm2cPaEeUTh8xEpPrPA=="/>
 		<POI MapID="15" xpos="-659.893" ypos="20.8578" zpos="352.779" type="hj.hu.qd.qd20" GUID="O2nT4ppyXU6foiMdykmklw=="/>
 		<POI MapID="15" xpos="-702.436" ypos="11.6858" zpos="548.321" type="hj.hu.qd.qd30" GUID="ww/zOtSIYEWmHy6akH/eJQ=="/>

@@ -116,7 +116,30 @@
 			</MarkerCategory>
 		</MarkerCategory>
 			
-
+		<MarkerCategory Name="no" DisplayName="Norn">
+			<MarkerCategory Name="wf" DisplayName="Wayfarer Foothills" iconSize="1.75" fadeNear="9000" fadeFar="9500" heightOffset="0.5" behavior="3" autoTrigger="0" triggerRange="3" mapDisplaySize="40">
+				<MarkerCategory Name="wf10" DisplayName="Welcome Savant" iconFile="Data/HerosJourney/Markers/no-wf-10.png"/>
+				<MarkerCategory Name="wf20" DisplayName="Iwfressionable Minds" iconFile="Data/HerosJourney/Markers/no-wf-20.png"/>
+				<MarkerCategory Name="wf30" DisplayName="Secret Project" iconFile="Data/HerosJourney/Markers/no-wf-30.png"/>
+				<MarkerCategory Name="wf40" DisplayName="Poisoned Needle" iconFile="Data/HerosJourney/Markers/no-wf-40.png"/>
+				<MarkerCategory Name="wf50" DisplayName="A Funtime" iconFile="Data/HerosJourney/Markers/no-wf-50.png"/>
+				<MarkerCategory Name="wf55" DisplayName="A Funtime" iconFile="Data/HerosJourney/Markers/no-wf-55.png"/>
+				<MarkerCategory Name="wf60" DisplayName="Crystal Reading" iconFile="Data/HerosJourney/Markers/no-wf-60.png"/>
+				<MarkerCategory Name="wf70" DisplayName="RATS" iconFile="Data/HerosJourney/Markers/no-wf-70.png"/>
+				<MarkerCategory Name="wf80" DisplayName="Desider Atum" iconFile="Data/HerosJourney/Markers/no-wf-80.png"/>
+				<MarkerCategory Name="wf90" DisplayName="Prison Break" iconFile="Data/HerosJourney/Markers/no-wf-90.png"/>
+				<MarkerCategory Name="wf100" DisplayName="Help me A-sur-an" iconFile="Data/HerosJourney/Markers/no-wf-100.png"/>
+				<MarkerCategory Name="wf110" DisplayName="Techno Rave" iconFile="Data/HerosJourney/Markers/no-wf-110.png"/>
+				<MarkerCategory Name="wf120" DisplayName="More Rats?!" iconFile="Data/HerosJourney/Markers/no-wf-120.png"/>
+				<MarkerCategory Name="wf130" DisplayName="Holy camole" iconFile="Data/HerosJourney/Markers/no-wf-130.png"/>
+				<MarkerCategory Name="wf140" DisplayName="Into infinity" iconFile="Data/HerosJourney/Markers/no-wf-140.png"/>
+				<MarkerCategory Name="wf150" DisplayName="Pop goes the..." iconFile="Data/HerosJourney/Markers/no-wf-150.png"/>
+				<MarkerCategory Name="wf160" DisplayName="Power Overwhelming" iconFile="Data/HerosJourney/Markers/no-wf-160.png"/>
+				<MarkerCategory Name="wf170" DisplayName="Flickering Bulb" iconFile="Data/HerosJourney/Markers/no-wf-170.png"/>
+				<MarkerCategory Name="wf180" DisplayName="Defending the source" iconFile="Data/HerosJourney/Markers/no-wf-180.png"/>
+				<MarkerCategory Name="wf190" DisplayName="Open up its the..." iconFile="Data/HerosJourney/Markers/no-wf-190.png"/>
+			</MarkerCategory>
+		</MarkerCategory>
 
 	</MarkerCategory>
 	
@@ -211,6 +234,26 @@
 		<POI MapID="34" xpos="-311.082" ypos="0.559359" zpos="824.917" type="hj.sy.cf.cf240" GUID="R8z+roa1q0ivU951PnDF0w=="/>
 		<POI MapID="34" xpos="-389.541" ypos="0.265262" zpos="966.338" type="hj.sy.cf.cf250" GUID="dUBALxrhm0mA6xeWoIlmvQ=="/>
 		<POI MapID="34" xpos="-453.532" ypos="5.86752" zpos="1144.03" type="hj.sy.cf.cf260" GUID="+e3ikyA2xkq8EylBJhfw9Q=="/>
+		<POI MapID="28" xpos="-189.07" ypos="89.4379" zpos="-642.371" type="hj.no.wf.wf10" GUID="Mnzdmt/7Y0a9PutkUMbn2A=="/>
+		<POI MapID="28" xpos="-197.681" ypos="107.494" zpos="-941.758" type="hj.no.wf.wf20" GUID="Df7b/Vs000S3dsTFVVTGlw=="/>
+		<POI MapID="28" xpos="51.7041" ypos="11.6821" zpos="-1088.46" type="hj.no.wf.wf30" GUID="QaKVdw8lKU2grYNxUbUXtA=="/>
+		<POI MapID="28" xpos="-78.3638" ypos="53.5928" zpos="-1333.37" type="hj.no.wf.wf40" GUID="y0fMcufnMEqaxdN8+Yrg8w=="/>
+		<POI MapID="28" xpos="240.574" ypos="1.04664" zpos="-766.509" type="hj.no.wf.wf50" GUID="okJfXd+jlUWYZkx1bArhqQ=="/>
+		<POI MapID="28" xpos="56.7091" ypos="109.671" zpos="-647.06" type="hj.no.wf.wf55" GUID="PVNsa1R42kaLYtxHbA4YZw=="/>
+		<POI MapID="28" xpos="19.5721" ypos="146.979" zpos="-359.407" type="hj.no.wf.wf60" GUID="cAb5A1di0UO6KScgMUOkXA=="/>
+		<POI MapID="28" xpos="431.19" ypos="119.578" zpos="-120.554" type="hj.no.wf.wf70" GUID="yjcmMeE31EmEooQGqavM6Q=="/>
+		<POI MapID="28" xpos="-351.12" ypos="106.613" zpos="-20.3499" type="hj.no.wf.wf80" GUID="nN8o+zXDH0G69TcnHvMOaA=="/>
+		<POI MapID="28" xpos="-512.057" ypos="103.416" zpos="47.2925" type="hj.no.wf.wf90" GUID="9w0e/+BxTkCuj94VxW50OQ=="/>
+		<POI MapID="28" xpos="30.0128" ypos="81.4127" zpos="137.365" type="hj.no.wf.wf100" GUID="dg4Ul6+ojUCxATQNBdnvDQ=="/>
+		<POI MapID="28" xpos="-257.375" ypos="126.623" zpos="373.948" type="hj.no.wf.wf110" GUID="Fd66VDSa6E+xeBPrp2DC1A=="/>
+		<POI MapID="28" xpos="-406.911" ypos="97.7272" zpos="443.155" type="hj.no.wf.wf120" GUID="iwVTmcXREEmF5vJzUEqCFA=="/>
+		<POI MapID="28" xpos="-171.88" ypos="96.4192" zpos="497.149" type="hj.no.wf.wf130" GUID="aI8bPGuNl0Sh4WbFhdnzFA=="/>
+		<POI MapID="28" xpos="-17.6275" ypos="91.7913" zpos="583.443" type="hj.no.wf.wf140" GUID="IEBS5cI1jkKuDrPVQIdlUA=="/>
+		<POI MapID="28" xpos="246.538" ypos="87.9768" zpos="539.958" type="hj.no.wf.wf150" GUID="yHxcl1loQkWXaQDzfsNtOg=="/>
+		<POI MapID="28" xpos="448.698" ypos="75.103" zpos="577.643" type="hj.no.wf.wf160" GUID="39DH0PtTkkKZ/qVM/Ij2XA=="/>
+		<POI MapID="28" xpos="72.7141" ypos="117.753" zpos="932.997" type="hj.no.wf.wf170" GUID="j9kx+nl980+ljgUQy6fGzA=="/>
+		<POI MapID="28" xpos="15.4749" ypos="188.451" zpos="1181.54" type="hj.no.wf.wf180" GUID="a6nqr8NzLUu/CAt1Cu3FqQ=="/>
+		<POI MapID="28" xpos="-372.167" ypos="117.365" zpos="1072.31" type="hj.no.wf.wf190" GUID="e73yddTIvkuElsEwqtwjzA=="/>
 		
 	</POIs>
 
